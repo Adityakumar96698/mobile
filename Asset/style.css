@@ -1,0 +1,209 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family:sans-sarif;
+}
+
+.main
+{
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	overflow: hidden;
+	background: linear-gradient(to right, #9c27b0, #8ecdff);
+}
+
+nav
+{
+	width: 82%;
+	position: sticky;
+	margin: 20px auto;
+	z-index: 1;
+	display: flex;
+	align-items: center;
+}
+
+.logo
+{
+	flex-basis: 20%;
+}
+
+.logo img
+{
+	width: 150px;
+}
+
+.nav-links
+{
+	flex:1;
+	text-align: right;
+
+}
+
+.nav-links ul li
+{
+	list-style: none;
+	display: block;
+	margin: 0 20px;
+
+}
+
+.nav-links ul li a
+{
+	color: #fff;
+	text-decoration: none;
+}
+
+.information
+{
+	width: 1000px;
+	height: 1000px;
+	position: absolute;
+	top:50%;
+	left:-10%;
+	transform: translate(-50%);
+}
+
+#circle
+{
+	width: 850px;
+	height: 850px;
+	position: absolute;
+	top: -402px;
+	left:503px;
+	border-radius:50%;
+	transform:rotate(0deg);
+	transition: 1s;
+
+}
+
+.feature img
+{
+	width: 50px;
+}
+
+.feature
+{
+ position:absolute;
+ display: flex;
+ color: white;
+}
+
+.feature div
+{
+	margin-left: 30px;
+}
+
+.one
+{
+	top:391px;
+	right: 25px;
+
+}
+
+.two
+{
+	top:100px;
+	left:295px;
+	transform: rotate(-90deg);
+}
+
+.three
+{
+	bottom: 398px;
+	left:26px;
+	transform: rotate(-180deg);
+}
+
+.four
+{
+	bottom: 122px;
+	right:317px;
+	transform: rotate(-270deg);
+}
+
+
+
+h1
+{
+	font-size:25px;
+	margin: 0px 0px 0px 0px;
+
+}
+
+p
+{
+	font-size:15px;
+	margin: 0px 0px 0px 0px;
+}
+
+.mobile
+{
+	width: 141px;
+	position: absolute;
+	top:4%;
+	left:85%;
+	transform:translateY(-50%);
+	z-index:1;
+}
+
+.camera
+{
+	top:342px;
+	right: 150px;
+}
+
+
+.feature div
+{
+	margin-left: 30px;
+}
+
+.feature div p
+{
+	margin-top: 8px;
+}
+
+
+.controls
+{
+	position: absolute;
+	right: 10%;
+	top:50%;
+	transform:translateY(-50%);
+	text-align: center;
+}
+
+h3
+{
+	margin: 15px 0px;
+	color: #fff; 
+}
+
+
+#Upbtn
+{
+	width: 15px; 
+	cursor: pointer;
+}
+
+#Downbtn
+{
+	width: 15px; 
+	cursor: pointer;
+	transform: rotate(180deg);
+}
+
+.overlay
+{
+	width: 0px;
+	height: 0;
+	border-top: 500px solid white;
+	border-right: 500px solid transparent;
+	border-bottom: 500px solid white;
+	border-left: 500px solid white;
+	position: absolute;
+	left: 425px;
+	top: -472px;
+}
